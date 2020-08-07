@@ -10,6 +10,8 @@ namespace sagiem.consol
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите ряд числел. По окончании введите end");
+
         }
     }
 }
