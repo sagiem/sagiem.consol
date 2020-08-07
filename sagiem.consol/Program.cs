@@ -10,7 +10,21 @@ namespace sagiem.consol
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите ряд числел. По окончании введите end");
+            List<int> ls = new List<int>();
+            bool en = false;
+            Console.WriteLine("Введите ряд числел. По окончании введите 'end'");
+            while (en)
+            {
+                Console.WriteLine("Введите еще число либо 'end' что бы закончить");
+                for(int.TryParse(Console.ReadLine(),out int result)
+                {
+                    ls.Add(result);
+                }
+                else
+                {
+                    if()
+                }
+            }
 
         }
     }
