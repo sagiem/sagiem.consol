@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace урок_8
 {
-    class triangle : figure
+   public class triangle : figure
     {
         int c;
     }

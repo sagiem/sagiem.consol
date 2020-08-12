@@ -8,7 +8,7 @@ namespace урок_8
 {
     public class figure
     {
-        int a;
+        public int a;
         int b;
         int s;
     }

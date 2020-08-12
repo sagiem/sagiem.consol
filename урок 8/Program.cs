@@ -10,6 +10,8 @@ namespace урок_8
     {
         static void Main(string[] args)
         {
+            triangle trig = new triangle();
+            trig.
         }
     }
 }
