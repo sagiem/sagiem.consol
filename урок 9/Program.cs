@@ -10,7 +10,18 @@ namespace урок_9
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine("Введите значение");
+            if(int.TryParse(Console.ReadLine(), out int result))
+
+            {
+                               
+                Console.WriteLine(Fibonacci(result));
+            }
+            else
+            {
+                Console.WriteLine("Вы ввели неверное значение");
+            }
+            Console.ReadLine();
         }
 
         //static int Fibonachi(int n)
