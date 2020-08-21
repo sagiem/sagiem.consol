@@ -5,6 +5,6 @@ namespace урок_13
 {
     interface ICar
     {
-        void Move(int distace);
+        int Move(int distace);
     }
 }
